@@ -15,6 +15,8 @@ def button_click(number):
     e.insert(0, str(current) + str(number))
 
 
+# Clear the Entry
+
 def button_clear():
     e.delete(0, END)
 
@@ -67,6 +69,8 @@ def button_module():
     f_num = float(first_num)
     e.delete(0, END)
 
+
+# Function For Equal Button
 
 def button_equal():
     second_num = e.get()
